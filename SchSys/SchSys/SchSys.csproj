@@ -78,6 +78,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="mansfield.aspx" />
     <Content Include="Schools.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Manningtree.Master.designer.cs">
       <DependentUpon>Manningtree.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mansfield.aspx.cs">
+      <DependentUpon>mansfield.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mansfield.aspx.designer.cs">
+      <DependentUpon>mansfield.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Schools.aspx.cs">
