@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Manningtree.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,6 +78,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="Schools.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,7 +92,21 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Manningtree.Master.cs">
+      <DependentUpon>Manningtree.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manningtree.Master.designer.cs">
+      <DependentUpon>Manningtree.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schools.aspx.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schools.aspx.designer.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,21 @@
+﻿body {
+    font-family: "Arial", Times, serif;
+    font-size: 14px;
+    padding:2px;
+}
+
+
+table {
+    border: 1px solid black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 2px;
+    width:730px;
+    border-spacing: 2px;
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+    border-spacing: 10px;
+}

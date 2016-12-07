@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manningtree.master.cs" Inherits="SchSys.Manningtree" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        
+             <div class="navbar-default">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span>Menu <span class="glyphicon glyphicon-chevron-down" ></span></button>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav">
+        <li ><a href="home.aspx">Main System<span class="sr-only"></span></a></li>
+        <li><a href="Mansfield.aspx">Mansfield</a></li>
+        <li class="dropdown"><a href=".aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Schools.aspx?">Schools</a></li>
+            <li><a href="Diary.aspx?">Diary</a></li>
+            <li><a href="Bookings.aspx?">Bookings</a></li>
+            <li><a href="Collections.aspx?">Collections</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Brands<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Orders.aspx">Orders</a></li>
+
+          </ul>
+        </li>
+        <li><a href="faq.aspx">FAQ</a></li>
+        <li><a href="contactus.aspx">Contact Us</a></li>   
+        </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="privacy.aspx">Website Policies</a></li> 
+             <li><a href="customerlogin.aspx">Login/Register</a></li> 
+             <li><a href="Basket.aspx">Basket</a></li> 
+          </ul>
+    </div>
+  </div>
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
